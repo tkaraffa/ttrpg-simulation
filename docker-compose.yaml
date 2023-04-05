@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ttrpg-simulation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/src
